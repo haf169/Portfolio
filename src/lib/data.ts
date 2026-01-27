@@ -46,7 +46,7 @@ export const projects = [
       period: "Aug 2025 – Dec 2025",
       teamSize: 5,
       liveUrl: "https://edusphere-dev.netlify.app/",
-      image: "/images/edusphere.png",
+      image: "/images/Animation1.gif",
       highlights: {
          vi: [
             "Dẫn dắt phát triển frontend sử dụng ReactJS",
@@ -65,45 +65,6 @@ export const projects = [
             "学生、クラス、クラブ管理モジュールを設計・実装",
             "提出物とスポーツ大会をサポートするイベントワークフローを構築",
             "AWSにバックエンド、Netlifyにフロントエンドをデプロイ",
-         ],
-      },
-   },
-   {
-      id: "omgmart",
-      title: "OMGMart",
-      subtitle: {
-         vi: "Hệ thống quản lý siêu thị mini",
-         en: "Mini Mart Management System",
-         ja: "ミニマート管理システム",
-      },
-      description: {
-         vi: "Hệ thống quản lý full-stack hỗ trợ hoạt động hàng ngày của siêu thị bao gồm kho hàng, bán hàng, khuyến mãi và thanh toán online.",
-         en: "A full-stack management system that supports daily supermarket operations including inventory, sales, promotions, and online payments.",
-         ja: "在庫、販売、プロモーション、オンライン決済を含むスーパーマーケットの日常業務をサポートするフルスタック管理システム。",
-      },
-      technologies: ["NextJS", "NodeJS (Express)", "MongoDB", "AWS"],
-      period: "Feb 2025 – Jun 2025",
-      teamSize: 5,
-      liveUrl: null,
-      image: "/images/omgmart.png",
-      highlights: {
-         vi: [
-            "Phát triển ứng dụng web full-stack từ kho đến bán hàng",
-            "Triển khai quản lý kho và cập nhật dữ liệu real-time",
-            "Xây dựng tính năng mã giảm giá và chiến dịch khuyến mãi",
-            "Tích hợp thanh toán online",
-         ],
-         en: [
-            "Developed full-stack web application from warehousing to sales",
-            "Implemented inventory management with real-time data updates",
-            "Built discount codes and promotional campaign features",
-            "Integrated online payment functionality",
-         ],
-         ja: [
-            "倉庫から販売までのフルスタックWebアプリケーションを開発",
-            "リアルタイムデータ更新による在庫管理を実装",
-            "割引コードとプロモーションキャンペーン機能を構築",
-            "オンライン決済機能を統合",
          ],
       },
    },
@@ -152,9 +113,9 @@ export const education = {
    period: "2021 – 2025",
    gpa: "7.3",
    achievements: {
-      vi: ["Sinh viên xuất sắc học kỳ SU2025"],
-      en: ["Honorable Student for SU2025"],
-      ja: ["2025年夏学期優秀学生賞"],
+      vi: ["Sinh viên giỏi"],
+      en: ["Outstanding Student"],
+      ja: ["優秀学生"],
    },
 };
 
