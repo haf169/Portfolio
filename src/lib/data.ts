@@ -113,9 +113,9 @@ export const education = {
    period: "2021 – 2025",
    gpa: "7.3",
    achievements: {
-      vi: ["Sinh viên giỏi"],
-      en: ["Outstanding Student"],
-      ja: ["優秀学生"],
+      vi: ["Sinh viên giỏi học kỳ SU2025"],
+      en: ["Outstanding Student - Summer 2025"],
+      ja: ["2025年夏学期優秀学生"],
    },
 };
 
