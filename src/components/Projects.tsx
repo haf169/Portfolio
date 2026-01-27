@@ -154,6 +154,43 @@ export default function Projects() {
                         </ul>
                      </div>
 
+                     {/* Test Accounts */}
+                     <div className="mt-6 p-4 bg-white/5 rounded-xl border border-white/10">
+                        <h4 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-3">
+                           {language === "vi" ? "Tài khoản Demo" : language === "en" ? "Demo Accounts" : "デモアカウント"}
+                        </h4>
+                        <div className="grid sm:grid-cols-3 gap-3 text-sm">
+                           {/* Admin */}
+                           <div className="bg-white/5 p-3 rounded-lg">
+                              <div className="text-primary-400 font-medium mb-1">Admin</div>
+                              <div className="text-gray-400 text-xs space-y-1">
+                                 <p>admin@example.com</p>
+                                 <p>Pass: 123</p>
+                              </div>
+                           </div>
+                           {/* Student */}
+                           <div className="bg-white/5 p-3 rounded-lg">
+                              <div className="text-primary-400 font-medium mb-1">
+                                 {language === "vi" ? "Học sinh" : language === "en" ? "Student" : "学生"}
+                              </div>
+                              <div className="text-gray-400 text-xs space-y-1">
+                                 <p>anhs2030@example.com</p>
+                                 <p>Pass: 123</p>
+                              </div>
+                           </div>
+                           {/* Teacher */}
+                           <div className="bg-white/5 p-3 rounded-lg">
+                              <div className="text-primary-400 font-medium mb-1">
+                                 {language === "vi" ? "Giáo viên" : language === "en" ? "Teacher" : "教師"}
+                              </div>
+                              <div className="text-gray-400 text-xs space-y-1">
+                                 <p>thanhphuong12a1@gmail.com</p>
+                                 <p>Pass: 123</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
                      {/* CTA Button */}
                      {project.liveUrl && (
                         <a
