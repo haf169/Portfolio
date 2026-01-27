@@ -161,30 +161,31 @@ export default function Projects() {
                         </h4>
                         <div className="grid sm:grid-cols-3 gap-3 text-sm">
                            {/* Admin */}
-                           <div className="bg-white/5 p-3 rounded-lg">
+                           <div className="bg-white/5 p-3 rounded-lg min-w-0">
                               <div className="text-primary-400 font-medium mb-1">Admin</div>
-                              <div className="text-gray-400 text-xs space-y-1">
+                              <div className="text-gray-400 text-xs space-y-1 break-all">
                                  <p>admin@example.com</p>
                                  <p>Pass: 123</p>
                               </div>
                            </div>
                            {/* Student */}
-                           <div className="bg-white/5 p-3 rounded-lg">
+                           <div className="bg-white/5 p-3 rounded-lg min-w-0">
                               <div className="text-primary-400 font-medium mb-1">
                                  {language === "vi" ? "Học sinh" : language === "en" ? "Student" : "学生"}
                               </div>
-                              <div className="text-gray-400 text-xs space-y-1">
+                              <div className="text-gray-400 text-xs space-y-1 break-all">
                                  <p>anhs2030@example.com</p>
                                  <p>Pass: 123</p>
                               </div>
                            </div>
                            {/* Teacher */}
-                           <div className="bg-white/5 p-3 rounded-lg">
+                           <div className="bg-white/5 p-3 rounded-lg min-w-0">
                               <div className="text-primary-400 font-medium mb-1">
                                  {language === "vi" ? "Giáo viên" : language === "en" ? "Teacher" : "教師"}
                               </div>
-                              <div className="text-gray-400 text-xs space-y-1">
-                                 <p>thanhphuong12a1@gmail.com</p>
+                              <div className="text-gray-400 text-xs space-y-1 break-all">
+                                 <p>thanhphuong12a1</p>
+                                 <p>@gmail.com</p>
                                  <p>Pass: 123</p>
                               </div>
                            </div>
