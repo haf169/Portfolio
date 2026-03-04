@@ -71,6 +71,41 @@ h4 {
    background-clip: text;
 }
 
+/* ── Logo: shine chạy theo chữ ── */
+.logo-shine {
+   font-family: var(--font-space), system-ui, sans-serif;
+   font-weight: 800;
+   font-size: 1.35rem;
+   letter-spacing: -0.02em;
+   text-transform: uppercase;
+
+   /* Animated gradient sweeping left → right */
+   background: linear-gradient(105deg,
+         #0ea5e9 0%,
+         #14b8a6 20%,
+         #e0f7ff 40%,
+         #ffffff 48%,
+         #e0f7ff 56%,
+         #14b8a6 76%,
+         #0ea5e9 100%);
+   background-size: 250% auto;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+
+   animation: logo-shine-move 2.4s linear infinite;
+}
+
+@keyframes logo-shine-move {
+   0% {
+      background-position: 200% center;
+   }
+
+   100% {
+      background-position: -50% center;
+   }
+}
+
 /* Glass effect */
 .glass {
    background: rgba(255, 255, 255, 0.05);

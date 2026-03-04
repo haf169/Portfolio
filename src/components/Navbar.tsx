@@ -34,9 +34,9 @@ export default function Navbar() {
             }`}
       >
          <div className="container-custom flex items-center justify-between">
-            {/* Logo */}
-            <a href="#" className="text-xl font-bold gradient-text">
-               {personalInfo.name.last}
+            {/* ── Logo ── */}
+            <a href="#" className="logo-shine">
+               TRANHA
             </a>
 
             {/* Desktop Navigation */}
