@@ -5,6 +5,7 @@ import { Menu, X, Github, Mail, Phone } from "lucide-react";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useLanguage } from "@/context/LanguageContext";
 import { personalInfo } from "@/lib/data";
+import LangFade from "@/components/LangFade";
 
 const navItems = {
    vi: ["Giới thiệu", "Kỹ năng", "Dự án", "Kinh nghiệm", "Liên hệ"],
@@ -46,7 +47,7 @@ export default function Navbar() {
                      href={`#${navIds[index]}`}
                      className="text-sm text-gray-400 hover:text-white animated-underline transition-colors"
                   >
-                     {item}
+                     <LangFade>{item}</LangFade>
                   </a>
                ))}
             </div>

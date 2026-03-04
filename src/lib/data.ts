@@ -13,9 +13,9 @@ export const personalInfo = {
    phone: "081 4004 777",
    github: "https://github.com/haf169",
    bio: {
-      vi: "Software Engineer đang làm việc tại Rikai Technology, phát triển ứng dụng full-stack với Ruby on Rails, ReactJS và NextJS. Có kinh nghiệm tích hợp API, deploy với Docker Compose và vận hành hệ thống trên Linux Ubuntu.",
-      en: "Software Engineer at Rikai Technology, building full-stack applications with Ruby on Rails, ReactJS and NextJS. Experienced in API integration, Docker Compose deployment, and Linux Ubuntu server operations.",
-      ja: "Rikai TechnologyでRuby on Rails、ReactJS、NextJSを使用したフルスタック開発に従事するソフトウェアエンジニア。API統合、Docker Composeデプロイ、Linux Ubuntu運用の経験を持つ。",
+      vi: "Software Engineer đang làm việc tại Rikai Technology, phát triển ứng dụng full-stack với Ruby on Rails và NextJS. Có kinh nghiệm tích hợp API, deploy với Docker Compose và vận hành hệ thống trên Linux Ubuntu.",
+      en: "Software Engineer at Rikai Technology, building full-stack applications with Ruby on Rails, NextJS. Experienced in API integration, Docker Compose deployment, and Linux Ubuntu server operations.",
+      ja: "Rikai TechnologyでRuby on Rails、NextJSを使用したフルスタック開発に従事するソフトウェアエンジニア。API統合、Docker Composeデプロイ、Linux Ubuntu運用の経験を持つ。",
    },
 };
 

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useLanguage } from "@/context/LanguageContext";
 import { personalInfo } from "@/lib/data";
 import Image from "next/image";
+import LangFade from "@/components/LangFade";
 
 const sectionText = {
    vi: {
@@ -35,9 +36,11 @@ export default function About() {
                className="text-center mb-12"
             >
                <span className="text-primary-400 text-sm uppercase tracking-wider">
-                  {text.title}
+                  <LangFade>{text.title}</LangFade>
                </span>
-               <h2 className="text-3xl md:text-4xl font-bold mt-2">{text.subtitle}</h2>
+               <h2 className="text-3xl md:text-4xl font-bold mt-2">
+                  <LangFade>{text.subtitle}</LangFade>
+               </h2>
             </motion.div>
 
             <div className="flex flex-col lg:flex-row items-center gap-12">
@@ -72,7 +75,7 @@ export default function About() {
                   className="flex-1"
                >
                   <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                     {personalInfo.bio[language]}
+                     <LangFade>{personalInfo.bio[language]}</LangFade>
                   </p>
 
                   <div className="grid grid-cols-2 gap-4">
