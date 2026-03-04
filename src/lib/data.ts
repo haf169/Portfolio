@@ -13,18 +13,18 @@ export const personalInfo = {
    phone: "081 4004 777",
    github: "https://github.com/haf169",
    bio: {
-      vi: "Software Engineer tốt nghiệp từ FPT University với kinh nghiệm thực tế trong phát triển full-stack web. Có nền tảng vững chắc về Java, JavaScript/TypeScript và các framework hiện đại như ReactJS, NextJS, Spring Boot.",
-      en: "Software Engineering graduate from FPT University with hands-on experience in full-stack web development. Strong background in Java, JavaScript/TypeScript, and modern frameworks such as ReactJS, NextJS, Spring Boot.",
-      ja: "FPT大学でソフトウェアエンジニアリングを専攻し、フルスタックWeb開発の実践経験があります。Java、JavaScript/TypeScript、ReactJS、NextJS、Spring Bootなどのモダンなフレームワークに精通しています。",
+      vi: "Software Engineer đang làm việc tại Rikai Technology, phát triển ứng dụng full-stack với Ruby on Rails, ReactJS và NextJS. Có kinh nghiệm tích hợp API, deploy với Docker Compose và vận hành hệ thống trên Linux Ubuntu.",
+      en: "Software Engineer at Rikai Technology, building full-stack applications with Ruby on Rails, ReactJS and NextJS. Experienced in API integration, Docker Compose deployment, and Linux Ubuntu server operations.",
+      ja: "Rikai TechnologyでRuby on Rails、ReactJS、NextJSを使用したフルスタック開発に従事するソフトウェアエンジニア。API統合、Docker Composeデプロイ、Linux Ubuntu運用の経験を持つ。",
    },
 };
 
 export const skills = {
-   programming: ["Java", "JavaScript", "TypeScript", "SQL"],
+   programming: ["Java", "JavaScript", "TypeScript", "Ruby", "SQL"],
    frontend: ["ReactJS", "NextJS", "Tailwind CSS", "Framer Motion"],
-   backend: ["NodeJS (Express)", "Spring Boot", "RESTful API", "ASP.NET Core"],
-   databases: ["SQL Server", "MySQL", "MongoDB"],
-   tools: ["Git", "GitHub", "GitLab", "Jira", "AWS", "Netlify", "Vercel"],
+   backend: ["Ruby on Rails", "Spring Boot", "NodeJS (Express)", "RESTful API", "ASP.NET Core"],
+   databases: ["PostgreSQL", "MySQL", "MongoDB", "SQL Server"],
+   tools: ["Docker Compose", "Linux Ubuntu", "Git", "GitHub", "GitLab", "Jira", "AWS", "Vercel"],
    methodologies: ["Agile", "Scrum", "Clean Code", "Design Patterns"],
 };
 
@@ -71,6 +71,36 @@ export const projects = [
 ];
 
 export const experience = [
+   {
+      id: "rikai-technology",
+      company: "Rikai Technology",
+      position: {
+         vi: "Software Engineer (Full-stack)",
+         en: "Software Engineer (Full-stack)",
+         ja: "ソフトウェアエンジニア（フルスタック）",
+      },
+      period: "Jan 2026 – Present",
+      description: {
+         vi: [
+            "Phát triển backend với Ruby on Rails, xây dựng và bảo trì RESTful API",
+            "Phát triển frontend với NextJS, đảm bảo UI/UX nhất quán",
+            "Tích hợp và kết nối các dịch vụ API bên thứ ba",
+            "Deploy và vận hành ứng dụng bằng Docker Compose trên Linux Ubuntu",
+         ],
+         en: [
+            "Backend development with Ruby on Rails, building and maintaining RESTful APIs",
+            "Frontend development with ReactJS / NextJS, ensuring consistent UI/UX",
+            "API integration and third-party service connectivity",
+            "Application deployment and operation using Docker Compose on Linux Ubuntu",
+         ],
+         ja: [
+            "Ruby on Railsでバックエンド開発、RESTful APIの構築・保守",
+            "ReactJS / NextJSでフロントエンド開発、UI/UXの一貫性を確保",
+            "APIインテグレーションとサードパーティサービス連携",
+            "Docker ComposeとLinux Ubuntuを用いたアプリケーションのデプロイ・運用",
+         ],
+      },
+   },
    {
       id: "fpt-software",
       company: "FPT Software",

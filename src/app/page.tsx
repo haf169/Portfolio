@@ -1,6 +1,7 @@
 "use client";
 
 import { LanguageProvider } from "@/context/LanguageContext";
+import SmoothScrollProvider from "@/components/SmoothScrollProvider";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -13,19 +14,21 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
    return (
-      <LanguageProvider>
-         <main className="min-h-screen">
-            <Navbar />
-            <Hero />
-            <About />
-            <Skills />
-            <Projects />
-            <Game2048 />
-            <Experience />
-            <Contact />
-            <Footer />
-         </main>
-      </LanguageProvider>
+      <SmoothScrollProvider>
+         <LanguageProvider>
+            <main className="min-h-screen">
+               <Navbar />
+               <Hero />
+               <About />
+               <Skills />
+               <Projects />
+               <Game2048 />
+               <Experience />
+               <Contact />
+               <Footer />
+            </main>
+         </LanguageProvider>
+      </SmoothScrollProvider>
    );
 }
 

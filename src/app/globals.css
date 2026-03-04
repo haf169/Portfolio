@@ -9,6 +9,8 @@
 
 html {
    scroll-behavior: smooth;
+   scroll-padding-top: 80px; /* offset for fixed navbar */
+   overscroll-behavior-y: none;
 }
 
 body {
@@ -27,12 +29,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-   background: #333;
+   background: linear-gradient(180deg, #0ea5e9, #14b8a6);
    border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-   background: #444;
+   background: linear-gradient(180deg, #38bdf8, #2dd4bf);
 }
 
 /* Selection */

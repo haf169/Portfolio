@@ -97,13 +97,13 @@ export default function About() {
                         </div>
                      </div>
                      <div className="glass p-4 rounded-xl">
-                        <div className="text-2xl font-bold gradient-text">FPT</div>
+                        <div className="text-2xl font-bold gradient-text">Rikai</div>
                         <div className="text-gray-400 text-sm">
                            {language === "vi"
-                              ? "Software Intern"
+                              ? "Full-stack Dev"
                               : language === "en"
-                                 ? "Software Intern"
-                                 : "ソフトウェアインターン"}
+                                 ? "Full-stack Dev"
+                                 : "フルスタック開発"}
                         </div>
                      </div>
                      <div className="glass p-4 rounded-xl">
