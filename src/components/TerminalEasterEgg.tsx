@@ -14,31 +14,39 @@ const COMMANDS: Record<string, string[]> = {
       "  about     — Who am I?",
       "  skills    — Tech stack",
       "  contact   — Get in touch",
-      "  rikai     — Current workplace",
+      "  glory     — Current workplace",
+      "  rikai     — Previous workplace",
       "  clear     — Clear terminal",
       "  exit      — Close terminal",
    ],
    about: [
       "Nguyễn Hữu Trần Hà",
-      "Software Engineer @ Rikai Technology",
-      "Full-stack: Ruby on Rails + NextJS",
+      "IT Monitoring & IT Service @ Glory Software Vietnam",
+      "System Operations & Full-stack Web Development",
       "Based in Da Nang, Vietnam 🇻🇳",
    ],
    skills: [
-      "Languages  : Ruby, JavaScript, TypeScript, Java",
+      "Languages  : Ruby, JavaScript, TypeScript, Java, SQL",
+      "Monitoring : System Monitoring, IT Service Management",
+      "DevOps     : Docker Compose, Linux Ubuntu, AWS",
       "Backend    : Ruby on Rails, Spring Boot, NodeJS",
       "Frontend   : NextJS, ReactJS, Tailwind CSS",
-      "DevOps     : Docker Compose, Linux Ubuntu",
-      "Database   : PostgreSQL, MySQL, MongoDB",
+      "Database   : PostgreSQL, MySQL, MongoDB, SQL Server",
    ],
    contact: [
       "📧  itsmetranha16@gmail.com",
       "📱  081 4004 777",
       "🐙  github.com/haf169",
    ],
+   glory: [
+      "🏢  Glory Software Vietnam",
+      "📅  2026 – Present",
+      "🛠   IT Monitoring & IT Service Hệ thống",
+      "     System Operations · Monitoring · IT Service",
+   ],
    rikai: [
       "🏢  Rikai Technology",
-      "📅  Jan 2026 – Present",
+      "📅  Jan 2026 – Aug 2026",
       "🛠   Full-stack Software Engineer",
       "     Ruby on Rails · NextJS · Docker",
    ],
@@ -52,7 +60,7 @@ const INITIAL_LINES: TerminalLine[] = [
 /**
  * TerminalEasterEgg
  * Opens with backtick (~) key or Ctrl+`
- * Supports: help, about, skills, contact, rikai, clear, exit
+ * Supports: help, about, skills, contact, glory, rikai, clear, exit
  */
 export default function TerminalEasterEgg() {
    const [open, setOpen] = useState(false);

@@ -57,10 +57,11 @@ export default function About() {
                      <div className="absolute inset-4 bg-gradient-to-br from-primary-500/20 to-accent/20 rounded-2xl -rotate-6" />
                      <div className="absolute inset-0 glass rounded-2xl overflow-hidden">
                         <Image
-                           src="/images/Tranha Profile.png"
+                           src="/images/IMG_0273.jpg"
                            alt={personalInfo.name.full}
                            fill
-                           className="object-cover"
+                           className="object-cover object-top"
+                           priority
                         />
                      </div>
                   </div>
@@ -100,13 +101,13 @@ export default function About() {
                         </div>
                      </div>
                      <div className="glass p-4 rounded-xl">
-                        <div className="text-2xl font-bold gradient-text">Rikai</div>
+                        <div className="text-2xl font-bold gradient-text">Glory</div>
                         <div className="text-gray-400 text-sm">
                            {language === "vi"
-                              ? "Full-stack Dev"
+                              ? "IT Monitoring & Service"
                               : language === "en"
-                                 ? "Full-stack Dev"
-                                 : "フルスタック開発"}
+                                 ? "IT Monitoring & Service"
+                                 : "IT運用監視"}
                         </div>
                      </div>
                      <div className="glass p-4 rounded-xl">

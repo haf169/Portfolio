@@ -7,15 +7,15 @@ export const personalInfo = {
       last: "Trần Hà",
       full: "Nguyễn Hữu Trần Hà",
    },
-   title: "Software Engineer",
+   title: "IT Monitoring & Service Engineer",
    location: "Da Nang, Vietnam",
    email: "itsmetranha16@gmail.com",
    phone: "081 4004 777",
    github: "https://github.com/haf169",
    bio: {
-      vi: "Software Engineer đang làm việc tại Rikai Technology, phát triển ứng dụng full-stack với Ruby on Rails và NextJS. Có kinh nghiệm tích hợp API, deploy với Docker Compose và vận hành hệ thống trên Linux Ubuntu.",
-      en: "Software Engineer at Rikai Technology, building full-stack applications with Ruby on Rails, NextJS. Experienced in API integration, Docker Compose deployment, and Linux Ubuntu server operations.",
-      ja: "Rikai TechnologyでRuby on Rails、NextJSを使用したフルスタック開発に従事するソフトウェアエンジニア。API統合、Docker Composeデプロイ、Linux Ubuntu運用の経験を持つ。",
+      vi: "Kỹ sư IT đang làm việc tại Glory Software Vietnam, phụ trách IT Monitoring & IT Service hệ thống. Có nền tảng vững chắc về vận hành hệ thống, giám sát dịch vụ IT, Docker Compose, Linux Ubuntu và phát triển full-stack web.",
+      en: "IT Engineer at Glory Software Vietnam, specializing in IT Monitoring & IT Service systems. Experienced in system operations, infrastructure monitoring, Docker Compose, Linux Ubuntu, and full-stack web development.",
+      ja: "Glory Software VietnamにてIT監視およびITサービス運用を担当するITエンジニア。システム運用、インフラモニタリング、Docker Compose、Linux Ubuntu、フルスタック開発の確かな知見を持つ。",
    },
 };
 
@@ -24,8 +24,8 @@ export const skills = {
    frontend: ["ReactJS", "NextJS", "Tailwind CSS", "Framer Motion"],
    backend: ["Ruby on Rails", "Spring Boot", "NodeJS (Express)", "RESTful API", "ASP.NET Core"],
    databases: ["PostgreSQL", "MySQL", "MongoDB", "SQL Server"],
-   tools: ["Docker Compose", "Linux Ubuntu", "Git", "GitHub", "GitLab", "Jira", "AWS", "Vercel"],
-   methodologies: ["Agile", "Scrum", "Clean Code", "Design Patterns"],
+   tools: ["Docker Compose", "Linux Ubuntu", "System Monitoring", "Git", "GitHub", "GitLab", "Jira", "AWS", "Vercel"],
+   methodologies: ["IT Service Management (ITSM)", "Incident Management", "Agile", "Scrum", "Clean Code", "Design Patterns"],
 };
 
 export const projects = [
@@ -72,6 +72,36 @@ export const projects = [
 
 export const experience = [
    {
+      id: "glory-software",
+      company: "Glory Software Vietnam",
+      position: {
+         vi: "IT Monitoring & IT Service Hệ thống",
+         en: "IT Monitoring & IT Service Engineer",
+         ja: "IT監視・ITサービス運用エンジニア",
+      },
+      period: "2026 – Hiện tại",
+      description: {
+         vi: [
+            "Giám sát và đảm bảo tính sẵn sàng, ổn định liên tục cho hạ tầng hệ thống và dịch vụ IT",
+            "Tiếp nhận, phân loại và xử lý sự cố hệ thống (Incident Management) theo đúng quy trình chuẩn",
+            "Theo dõi chỉ số hiệu năng máy chủ, mạng và ứng dụng bằng các giải pháp giám sát chuyên dụng",
+            "Phối hợp với các đội ngũ kỹ thuật nhằm duy trì an toàn thông tin và tối ưu hóa vận hành hệ thống",
+         ],
+         en: [
+            "Monitor and maintain 24/7 high availability and stability for IT infrastructure and systems",
+            "Handle incident management and troubleshoot system issues according to operational SLAs",
+            "Track server, network, and application performance metrics using specialized monitoring tools",
+            "Collaborate with technical teams to ensure security compliance and optimize system operations",
+         ],
+         ja: [
+            "システムインフラおよびITサービスの常時稼働・高可用性と安定性を監視・維持",
+            "運用SLAに準拠したインシデント管理および障害の迅速な切り分け・対応",
+            "監視ツールを用いたサーバー、ネットワーク、アプリケーションのパフォーマンス追跡",
+            "セキュリティ維持と運用最適化のため技術チームと密接に連携",
+         ],
+      },
+   },
+   {
       id: "rikai-technology",
       company: "Rikai Technology",
       position: {
@@ -79,7 +109,7 @@ export const experience = [
          en: "Software Engineer (Full-stack)",
          ja: "ソフトウェアエンジニア（フルスタック）",
       },
-      period: "Jan 2026 – Present",
+      period: "Jan 2026 – Aug 2026",
       description: {
          vi: [
             "Phát triển backend với Ruby on Rails, xây dựng và bảo trì RESTful API",

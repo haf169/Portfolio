@@ -10,9 +10,9 @@ import LangFade from "@/components/LangFade";
 
 // ─── Typing strings per language ──────────────────────────────────────────────
 const typingStrings = {
-   vi: ["Software Engineer", "Ruby on Rails Dev", "Full-stack Developer", "Docker Enthusiast"],
-   en: ["Software Engineer", "Ruby on Rails Dev", "Full-stack Developer", "Docker Enthusiast"],
-   ja: ["ソフトウェアエンジニア", "Ruby on Rails 開発者", "フルスタック開発者"],
+   vi: ["IT Monitoring & IT Service", "Software Engineer", "System Operations", "Full-stack Developer"],
+   en: ["IT Monitoring & IT Service", "Software Engineer", "System Operations", "Full-stack Developer"],
+   ja: ["IT監視・ITサービス運用", "ソフトウェアエンジニア", "システム運用", "フルスタック開発者"],
 };
 
 const heroText = {
@@ -97,7 +97,7 @@ export default function Hero() {
                   transition={{ duration: 0.8 }}
                   className="flex-1 text-center lg:text-left"
                >
-                  {/* 🟢 Rikai badge */}
+                  {/* 🟢 Glory badge */}
                   <motion.div
                      initial={{ opacity: 0, y: -10 }}
                      animate={{ opacity: 1, y: 0 }}
@@ -109,7 +109,7 @@ export default function Hero() {
                         <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500" />
                      </span>
                      <Briefcase size={13} className="text-primary-400" />
-                     Working at <span className="text-primary-400 font-medium">Rikai Technology</span>
+                     Working at <span className="text-primary-400 font-medium">Glory Software Vietnam</span>
                   </motion.div>
 
                   {/* Greeting */}

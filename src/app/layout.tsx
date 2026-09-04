@@ -16,18 +16,19 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-   title: "Nguyễn Hữu Trần Hà | Software Engineer",
+   title: "Nguyễn Hữu Trần Hà | IT Monitoring & Service Engineer",
    description:
-      "Software Engineer tại Rikai Technology. Full-stack với Ruby on Rails, ReactJS, NextJS và Docker.",
+      "IT Monitoring & IT Service tại Glory Software Vietnam. Giám sát hệ thống, vận hành dịch vụ IT, Docker và Full-stack Web Development.",
    keywords: [
-      "Software Engineer", "Full Stack Developer",
-      "Ruby on Rails", "ReactJS", "NextJS",
-      "Rikai Technology", "Vietnam", "Da Nang",
+      "IT Monitoring", "IT Service", "System Operations",
+      "Software Engineer", "Glory Software Vietnam",
+      "Ruby on Rails", "ReactJS", "NextJS", "Docker",
+      "Vietnam", "Da Nang",
    ],
    authors: [{ name: "Nguyễn Hữu Trần Hà" }],
    openGraph: {
-      title: "Nguyễn Hữu Trần Hà | Software Engineer",
-      description: "Software Engineer tại Rikai Technology — Ruby on Rails · NextJS · Docker.",
+      title: "Nguyễn Hữu Trần Hà | IT Monitoring & Service Engineer",
+      description: "IT Monitoring & IT Service tại Glory Software Vietnam — Giám sát hệ thống · Docker · Web Development.",
       type: "website",
       locale: "vi_VN",
    },
