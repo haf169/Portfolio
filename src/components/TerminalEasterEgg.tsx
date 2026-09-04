@@ -46,7 +46,7 @@ const COMMANDS: Record<string, string[]> = {
    ],
    rikai: [
       "🏢  Rikai Technology",
-      "📅  Jan 2026 – Aug 2026",
+      "📅  Jan 2026 – July 2026",
       "🛠   Full-stack Software Engineer",
       "     Ruby on Rails · NextJS · Docker",
    ],
